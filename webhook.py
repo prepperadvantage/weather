@@ -27,6 +27,7 @@ def makeResponse(req):
     parameters = result.get("parameters")
     city = parameters.get("geo-city")
     date = parameters.get("date")
+    condition="unknown"
     print(result)
    # parameters = result.get("parameters")
    # city = parameters.get("geo-city")
