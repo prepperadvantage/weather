@@ -27,8 +27,8 @@ def makeResponse(req):
     parameters = result.get("parameters")
     city = parameters.get("geo-city")
     date = parameters.get("date")
-    dater=date.split("T")
-    print(dater)
+    dateA, dateB=date.split("T")
+    print(dateA)
   #  condition = "unknown"
     print(result)
    # parameters = result.get("parameters")
