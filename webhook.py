@@ -50,6 +50,7 @@ def makeResponse(req):
     return {
     "speech": speech,
     "displayText": speech,
+    "contextOut":[],
     "source": "apiai-weather-webhook"
     }
 
